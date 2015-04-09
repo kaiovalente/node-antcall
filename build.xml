@@ -1,0 +1,9 @@
+<project name="test" basedir="." default="main">
+
+    <target name="run">
+        <echo>Ant exec</echo>
+    </target>
+
+    <target name="main" depends="run"/>
+
+</project>
